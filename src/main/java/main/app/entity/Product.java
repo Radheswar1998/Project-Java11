@@ -12,41 +12,50 @@ public class Product implements Serializable{
     @Column(name = "product_id")
     private Long productId;
 
-    public Long getId() {
-        return productId;
-    }
 
-    public void setId(Long productId) {
-        this.productId = productId;
-    }
+
+
     @Column(name = "product_name")
     private String productName;
 
-    public String getName() {
+
+
+    @Column(name = "price")
+    private Double price;
+
+
+    @Column(name = "discount")
+    private int discount;
+
+    public Long getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Long productId) {
+        this.productId = productId;
+    }
+
+    public String getProductName() {
         return productName;
     }
 
-    public void setId(String productName) {
+    public void setProductName(String productName) {
         this.productName = productName;
     }
-    @Column(name = "price")
-    private Double price;
 
     public Double getPrice() {
         return price;
     }
 
-    public void setId(Double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
-    @Column(name = "discount")
-    private int discount;
 
     public int getDiscount() {
         return discount;
     }
 
-    public void setId(int discount) {
+    public void setDiscount(int discount) {
         this.discount = discount;
     }
 

@@ -1,0 +1,5 @@
+main\app\model\ProductInformation.class
+main\app\controller\ProductController.class
+main\app\entity\Product.class
+main\app\MainApp.class
+main\app\repositories\ProductRepository.class

@@ -17,8 +17,6 @@ public class MainApp implements CommandLineRunner {
     }
     @Override
     public void run(String... arg0) throws Exception {
-        for(Product product : productRepository.findAll()) {
-            System.out.println("Id: " + product.getId());
-        }
+
     }
 }
